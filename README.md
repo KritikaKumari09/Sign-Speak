@@ -2,11 +2,9 @@ SignSpeak
 Our project, SignSpeak, is a Real-Time Sign Language Communication App built to empower deaf and mute individuals by enabling them to communicate effortlessly with people who do not use sign language. Traditional communication often requires interpreters, text-based mediums, or prior knowledge of signs. SignSpeak removes these barriers by combining Artificial Intelligence (AI), Natural Language Processing (NLP), and Murf API's Text-to-Speech (TTS) technology to provide an instant, accessible, and user-friendly communication channel.
 
 🔹 The App's Mission
-SignSpeak translates sign language into spoken language and ensures two-way communication:
+SignSpeak translates sign language into spoken language:
 
 Deaf/mute users express themselves naturally using signs → heard as speech by listeners.
-
-Listeners respond verbally → response is shown as text output for deaf/mute users.
 
 ⚙️ How It Works
 Gesture Input
@@ -18,8 +16,8 @@ An LSTM (Long Short-Term Memory) deep learning model processes the video input a
 Translation & Speech (Murf API)
 The recognized gesture is converted into text. This text is then passed to the Murf API, which generates natural-sounding voice output. The voice can be generated in multiple languages, enabling cross-cultural communication.
 
-Two-Way Communication
-The hearing individual's verbal response is transcribed into text and displayed on the app for the deaf/mute user. This enables smooth, real-time, two-way interaction without the need for a human interpreter.
+One-Way Communication
+The app provides a real-time, one-way communication channel from sign language to spoken language.
 
 🌟 Key Features
 Cross-Language Communication: Supports multiple languages for inclusivity across regions and cultures.
